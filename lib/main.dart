@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:login/design1.dart';
 
+import 'package:login/forgotpass.dart';
 import 'package:login/registration.dart';
-import 'package:login/whatsapp.dart';
 
 import 'boxcheck.dart';
+import 'design1.dart';
+
+
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +19,7 @@ void main() {
   );
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: WhatsApp(),
+    home: ForgotPassword(),
   ));
 }
 
